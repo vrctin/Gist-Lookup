@@ -15,7 +15,7 @@ function SearchGistSection(props) {
 	function handleSubmit(e){
 		e.preventDefault();
 		// Send the username to the parent component
-		this.props.handleSearch(e.target.username.value);
+		props.handleSearch(e.target.username.value);
 	}
 
 	return <Box sx={{ mt: 8, width: '100%' }}>
