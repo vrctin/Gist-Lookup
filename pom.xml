@@ -4,4 +4,31 @@
   <groupId>com.vrctin.apps</groupId>
   <artifactId>gist-lookup</artifactId>
   <version>1</version>
+
+	<dependency>
+		<groupId>org.webjars.npm</groupId>
+		<artifactId>node</artifactId>
+		<version>16.14.2</version>
+	</dependency>
+
+
+	<dependency>
+		<groupId>org.webjars.npm</groupId>
+		<artifactId>react</artifactId>
+		<version>18.0.0</version>
+	</dependency>
+	
+	<dependency>
+		<groupId>org.webjars.npm</groupId>
+		<artifactId>github-com-mui-org-material-ui</artifactId>
+		<version>3.9.3</version>
+	</dependency>
+
+
+	<dependency>
+		<groupId>org.webjars.npm</groupId>
+		<artifactId>axios</artifactId>
+		<version>0.27.2</version>
+	</dependency>
+
 </project>
